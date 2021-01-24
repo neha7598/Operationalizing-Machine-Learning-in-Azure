@@ -3,6 +3,7 @@ This project is part of the Udacity Azure ML Nanodegree. In this project we conf
 
 ## Architectural Diagram
 The whole process of configuring the model, deploying it and consuming it can be understood by the following diagram- 
+![Architecture Diagram](https://github.com/neha7598/azure-ml-project2/blob/main/Screenshots/Architecture.png)
 
 
 **1. Configure Model**
