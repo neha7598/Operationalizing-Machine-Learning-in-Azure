@@ -42,7 +42,7 @@ In this step an AutoML Run was initialised using the Bankmarketing dataset which
 ### 3. Deploying the Best Model
 As part of this step the best model (i.e. Voting Ensemble) was deployed using Azure Container Instance (ACI).
 
-# 4. Enable Application Insights
+### 4. Enable Application Insights
 In this step Application Insights were enabled for the deployed model using the logs.py file by the following line of code-
 ```
 service.update(enable_app_insights =True)
