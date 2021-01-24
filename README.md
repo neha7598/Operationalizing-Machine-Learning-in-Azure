@@ -2,7 +2,9 @@
 This project is part of the Udacity Azure ML Nanodegree. In this project we configure a Machine Learning model, deploy it and consume it. Finally a pipeline is created, published and consumed. The dataset used contains bank marketing data pertaining to 32950 people. The machine learning model predicts if a client will subscribe to the service or not. The prediction is based on several parameters including age of the customer, their marital status, the campaign number, loan status, their education details, etc. AutoML has been used to find the best model for this problem.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+The whole process of configuring the model, deploying it and consuming it can be understood by the following diagram- 
+
+
 **1. Configure Model**
 - Register Dataset- The Bank Marketing data set was obtained from [here](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) and uploaded to Azure Machine Learning Studio.
 - AutoMl Run- An AutoML run was configured using the Bank Marketing data.
