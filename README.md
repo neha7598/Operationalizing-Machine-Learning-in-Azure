@@ -21,6 +21,7 @@ This project is part of the Udacity Azure ML Nanodegree. In this project we conf
 
 ## Key Steps
 The following steps were carried out as part of the project- 
+
 **1. Authentication**
 As part of this step a Service Principal account needs to be created and associated with the current workspace. SInce all work was carried out in the project Lab this step was not carried out due to lack of permissions. 
 
