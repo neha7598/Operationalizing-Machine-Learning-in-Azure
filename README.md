@@ -94,8 +94,6 @@ In this step we create, publish and consume a pipeline through the provided Jupy
 **Screenshot of ML Studio showing scheduled run**
 ![Run](https://github.com/neha7598/azure-ml-project2/blob/main/Screenshots/6-ML%20Studio%20showing%20sheduled%20Runs.png)
 
-## Screen Recording
-The screencast demostrating the project is available at: https://youtu.be/S2kllU4YStg
 
 ## Future Improvements
 Future experiments can explore having a experiment timeout time of more than 20 minutes, this can lead to a more exhaustive search and potentially better results. Also the class imbalance detected by AUTOML can be worked on by using different undersampling or oversampling techniques. Synthetic Minority Oversampling Technique (SMOTE) could also be used. We can also improve the project to carry out all the steps like enabling Application Insights, Swagger Documentation from the Jupyter Notebook itself. Thus the entire project can be executed from the Jupyter Notebook instead along pipeline creation, publication and consumption. 
